@@ -1,0 +1,8 @@
+.dogs {
+  display: inline-block;
+}
+
+.dogs img {
+  max-width: 200px;
+  max-height: 200px;
+}
