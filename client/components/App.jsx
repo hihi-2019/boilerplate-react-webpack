@@ -1,9 +1,13 @@
 import React from 'react'
+import NumberFacts from './NumberFacts'
 
-const App = () => {
-  return (
-    <h1>React development has begun!</h1>
-  )
+class App extends React.Component{
+
+  render(){
+    return (
+      <NumberFacts/>
+    )
+  }
 }
 
 export default App
